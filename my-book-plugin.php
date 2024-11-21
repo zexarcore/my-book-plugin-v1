@@ -125,9 +125,9 @@ function list_books_shortcode() {
                         <img class="book-thumbnail" src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
                     <?php endif; ?>
                     <h2 class="book-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                    <p class="book-genre">Género: <?php echo implode(', ', wp_get_post_terms(get_the_ID(), 'genero', array('fields' => 'names'))); ?></p>
-                    <p class="book-author">Autor: <?php the_field('autor'); ?></p>
-                    <p class="book-date">Fecha de publicación: <?php the_field('fecha_de_publicacion'); ?></p>
+                    <p class="book-genre"><strong>Género:</strong> <?php echo implode(', ', wp_get_post_terms(get_the_ID(), 'genero', array('fields' => 'names'))); ?></p>
+                    <p class="book-author"><strong>Autor:</strong> <?php the_field('autor'); ?></p>
+                    <p class="book-date"><strong>Fecha de publicación:</strong> <?php the_field('fecha_de_publicacion'); ?></p>
                 </li>
             <?php endwhile; ?>
         </ul>
