@@ -36,6 +36,8 @@
 - (Opcional) Crea una nueva página titulada "Mis Libros" (el plugin la completará automáticamente con el formulario de búsqueda y la lista de libros si no existe).
 - (Opcional) Personaliza el archivo CSS del plugin (my-book-plugin.css) para darle estilo a los libros y al formulario de búsqueda.
 - (Opcional) Crea una plantilla de libro único (single-libro.php) en la carpeta del plugin para páginas de libros detalladas (consulta el código para obtener orientación).
+- Instala el plugin Secure Custom Fields y crea el grupo que se visualiza en la imagen: 
+![Guia](https://github.com/zexarcore/my-book-plugin-v1/blob/master/custom-fields/customfields.jpg?raw=true)
 
 #### Uso:
 
